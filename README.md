@@ -5,11 +5,11 @@ This repository contains a comprehensive data engineering project focused on bui
 ## Project Overview
 The project is divided into two primary technical scenarios:
 
-Secenario A: Content-Based Image Retrieval (CBIR) System: Developing a system to search for pet species based on visual characteristics.
+Secenario 1: Content-Based Image Retrieval (CBIR) System: Developing a system to search for pet species based on visual characteristics.
 
-Secenario B: Sentiment Analysis Database: Engineering a pipeline for short-form social media text (tweets).
+Secenario 2: Sentiment Analysis Database: Engineering a pipeline for short-form social media text (tweets).
 
-## Part 1: Content-Based Image Retrieval (CBIR) System
+## Secenario 1: Content-Based Image Retrieval (CBIR) System
 The objective of this pipeline is to create an organized image library that allows users to search for pet species based on visual characteristics rather than just text labels.
 
 ### Data Ingestion & Preprocessing
@@ -40,7 +40,7 @@ Shape: Measured contour area and perimeter.
 
 Merged metadata, numerical feature vectors, and raw image bytes into single MongoDB documents, creating a fully searchable content-based library.
 
-## Part 2: Sentiment Analysis Database Pipeline
+## Secenario 2: Sentiment Analysis Database Pipeline
 This scenario focuses on engineering a pipeline for short-form text data extracted from social media (tweets).
 
 ### Pipeline Stages
